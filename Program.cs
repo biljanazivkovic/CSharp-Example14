@@ -10,6 +10,7 @@ namespace ex14
         {
             Car Ford = new Car();
             Console.WriteLine(Ford.model);
+            //'Car.model' is inaccessible due to its protection level
         }
     }
 }
